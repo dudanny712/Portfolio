@@ -80,7 +80,7 @@ body.dark-theme {
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(55, 100%, 97%);
-  --body-color: hsl(0, 0%, 17%);
+  --body-color: black;
   --container-color: hsl(var(--hue-color), 29%, 16%);
 }
 /* Universal */
