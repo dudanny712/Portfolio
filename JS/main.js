@@ -25,6 +25,13 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+// Main Image
+const text = document.querySelector('.text p');
+        text.innerHTML = text.innerText.split("").map(
+            (char,i)=>`<span style ="transform:rotate(${i*10.3}deg)"> ${char}</span>`
+        ).join(" ");
+
+
 // Skills Accordion
 
 const skillsContent = document.getElementsByClassName('skill_content'),
