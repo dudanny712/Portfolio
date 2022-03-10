@@ -526,6 +526,7 @@ img {
   font-size: var(--h3-font);
   font-weight: var(--font-medium);
   cursor: pointer;
+  margin: var(--mb-2);
 }
 
 .qualification_button:hover {
@@ -762,6 +763,9 @@ img {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
+  #work_exp {
+    margin-left: 50px;
+  }
 }
 
 /* Tablets */
@@ -910,5 +914,9 @@ img {
   }
   body {
     margin: 0;
+  }
+
+  .qualification_button {
+    margin: 0 3.5rem;
   }
 }
