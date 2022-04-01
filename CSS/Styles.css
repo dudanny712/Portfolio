@@ -252,6 +252,7 @@ img {
 /* Home Section */
 
 .circle {
+  margin-left: 100px;
   position: relative;
   width: 200px/2;
   height: 200px;
@@ -263,6 +264,7 @@ img {
 }
 
 .logo {
+  
   position: absolute;
   width: 150px;
   height: 150px;
@@ -297,6 +299,8 @@ img {
 .home_container {
   gap: 1rem;
 }
+
+
 
 .home_content {
   grid-template-columns: 0.5fr 3fr;
@@ -345,6 +349,7 @@ img {
 
 .home_description {
   margin-bottom: var(--mb-2);
+  
 }
 
 .home_scroll {
@@ -373,6 +378,7 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -752,6 +758,8 @@ img {
 
 /* Mobile Phones */
 @media screen and (max-width: 350px) {
+
+  
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -776,9 +784,14 @@ img {
   .qualification_data {
     gap: 0.5rem;
   }
+  
 }
 
 @media screen and (min-width: 568px) {
+
+  .circle {
+    margin-left: 100px;
+  }
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -814,6 +827,7 @@ img {
 /* Tablets */
 
 @media screen and (min-width: 768px) {
+  
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -918,6 +932,11 @@ img {
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
+
+  .circle {
+    margin-left: 200px;
+    
+  }
   .home,
   .about,
   .qualification {
@@ -962,4 +981,5 @@ img {
   .qualification_button {
     margin: 0 3.5rem;
   }
+  
 }
